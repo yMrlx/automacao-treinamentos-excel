@@ -1,0 +1,7 @@
+# Os .bat precisam de CRLF no Windows (com LF o cmd erra rótulos e goto).
+*.bat text eol=crlf
+*.py text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.png binary
+*.xlsx binary

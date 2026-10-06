@@ -1,0 +1,15 @@
+# Ambiente virtual e cache do Python (recriados sozinhos pelo .bat).
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Logs/saídas eventuais
+*.log
+
+# Sandbox do modo "--teste" (subcomando: resetar-teste recria do zero).
+_ambiente-teste/
+# Sandboxes privados de cada agente (ex.: _ambiente-teste-claude/), pra um não
+# apagar o cenário do outro com um resetar-teste.
+_ambiente-teste-*/

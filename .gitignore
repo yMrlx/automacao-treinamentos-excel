@@ -1,0 +1,19 @@
+# Planilhas geradas pela demo (rode demo/gerar_planilhas_demo.py para recriar).
+Planos e Macs/
+
+# Ambiente virtual, cache do Python e do pytest.
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Sandboxes do modo teste.
+_ambiente-teste/
+_ambiente-teste-*/
+
+# Arquivos temporários do Excel e do Windows.
+~$*.xlsx
+*.tmp
+Thumbs.db
+*.log

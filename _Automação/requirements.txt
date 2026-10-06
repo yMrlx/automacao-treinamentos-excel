@@ -1,0 +1,10 @@
+# Dependências de execução da automação.
+# Instale com:  pip install -r requirements.txt
+#
+# Observação: o xlwings controla o Excel instalado na máquina (Windows + Excel).
+# Testado com xlwings 0.36.17. O xlwings quebra API entre minors do 0.x, por isso
+# a faixa é estreita — ao subir, rode a suíte inteira (venv\Scripts\python.exe -m
+# pytest) + um "conferir" antes.
+
+xlwings>=0.36,<0.38
+python-dateutil>=2.9,<3
