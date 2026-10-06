@@ -172,24 +172,3 @@ Regra do mês: os POPs de **Setembro** chegam no começo de Outubro; com eles e 
 ├── demo/gerar_planilhas_demo.py        gera as planilhas fictícias
 └── docs/img/                           prints desta página (tirados do programa rodando na demo)
 ```
-
-## Como este projeto foi feito (uso de IA)
-
-Este projeto foi desenvolvido **com uso intenso de IA**. A maior parte do código, dos testes e da
-documentação foi escrita por assistentes de IA (**Claude Code**, da Anthropic, e **Codex**, da
-OpenAI), sob a minha direção.
-
-O meu papel foi:
-
-- identificar o processo manual que valia automatizar e definir o escopo;
-- levantar e decidir as regras de negócio com quem opera a planilha — qual mês o ciclo representa,
-  prazo de 30 dias, quais status nunca podem ser sobrescritos, o que deve bloquear a execução;
-- dividir o trabalho entre agentes (um implementando, um escrevendo testes, um revisando) e usar
-  um segundo assistente para revisão cruzada;
-- testar como QA, inclusive os erros que uma pessoa comete de verdade (arquivo trocado, mês errado,
-  planilha aberta), e validar em produção junto com a operadora;
-- colocar a ferramenta em uso no servidor do time e incorporar os pedidos de quem usa (regra do
-  mês, abrir o arquivo gerado no fim, linguagem do painel sem jargão).
-
-A IA acelerou muito a escrita; a confiança no resultado veio de testes, revisão e validação com
-dados reais.
